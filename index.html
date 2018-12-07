@@ -4,119 +4,126 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>alice hou&euml;l | web developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Lora:400,700|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 
 <body>
     <header>
-        <div class="header-nav-container">
-            <h1 class="header-title">&lt; alice houel | web developer /&gt;</h1>
+        <div class="header-navbar-container">
+            <h1 class="header-title">&lt; alice hou&euml;l | web developer /&gt;</h1>
             <nav class="header-navbar">
                 <a class="header-navbar-link" href="#portfolio">portfolio</a>
                 <a class="header-navbar-link" href="#about">about</a>
                 <a class="header-navbar-link" href="#contact">contact</a>
             </nav>
         </div>
-        <div class="header-subtitle-image-container">
+        <div class="header-subtitle-container">
             <h2 class="header-subtitle">
-                Let's change the world together - one website at a time!
+                let's change the <span class="highlighted">world</span> together - one website at a time!
             </h2>
-            <div class="header-image-container">
-                <img class="header-image" src="./img/rawpixel-679094-unsplash.jpg" alt="computer ata desk" />
-            </div>
         </div>
     </header>
     <main>
         <section id="portfolio" class="portfolio">
-            <h3 class="portfolio-title">my portfolio</h3>
+            <h3 class="section-title">my portfolio</h3>
             <div class="project-container">
-                <h4 class="project-title">Genius Music React Application</h4>
-                <div clss="project-description-container">
+                <div class="project-description-container">
                     <div class="project-image-container">
                         <img class="project-image" src="./img/project-2.png" alt="genius music homepage">
                     </div>
-                    <p class="project-description">
-                        This project is one page web application built with React.js, styled with CSS and using data
-                        from the Genius API. The Genius Music web application allows users to search songs by Artist
-                        names to learn more about the song and listen to it via through providers like Spotify, Youtube
-                        and SoundCloud.
-                    </p>
+                    <div class="project-description">
+                        <h4 class="project-title">Genius Music</h4>
+                        <h5 class="project-subtitle">A React Application with the Genius API</h5>
+                        <p class="project-text">
+                            The Genius Music web application allows users to search songs by
+                            Artist names to learn more about the song and listen to it via through providers like
+                            Spotify, Youtube and SoundCloud.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="project-container">
-                <h4 class="project-title">My Vinyl Collection Full Stack React Application</h4>
-                <div clss="project-description-container">
+
+                <div class="project-description-container">
+                    <div class="project-description">
+                        <h4 class="project-title">My Vinyl Collection</h4>
+                        <h5 class="project-subtitle">A PostgreSQL, Express, React, Node Application</h5>
+                        <p class="project-text">
+                            This web application is for vinyl collectors, who can create a profile and share their
+                            vinyl
+                            collection by adding albums to their profile using our database. By clicking on an album,
+                            each
+                            collector learn more about the album and can also see who owns the album and browse other
+                            collectors' collections. For this project the database was hardcoded with a few albums.
+                        </p>
+                    </div>
                     <div class="project-image-container">
                         <img class="project-image" src="./img/project-3.png" alt="my vinyl collection homepage">
                     </div>
-                    <p class="project-description">
-                        My Vinyl Collection is a full-stack web application built with React.js - styled with CSS -
-                        Node.js & Express and PostgreSQL database & Sequelize.
-                        This web application is for vinyl collectors, who can create a profile and share their vinyl
-                        collection by adding albums to their profile using our database. By clicking on an album, each
-                        collector learn more about the album and can also see who owns the album and browse other
-                        collectors' collections. For this project the database was hardcoded with a few albums.
-                    </p>
                 </div>
             </div>
             <div class="project-container">
-                <h4 class="project-title">Give Back NYC Full Stack React Application</h4>
-                <div clss="project-description-container">
+
+                <div class="project-description-container">
                     <div class="project-image-container">
                         <img class="project-image" src="./img/project-4.png" alt="give back nyc homepage">
                     </div>
-                    <p class="project-description">
-                        Give Back NYC is an application for volunteers in NYC to find volunteering opportunities in
-                        their community and to log in their experiences and rate them. Volunteers get points for each
-                        rated experience.
-                        This is a full-stack, responsive, web application built with ReactJS, CSS flexbox and grid on
-                        the front-end, and NodeJS, Express and PostgreSQL paired with the Sequelize ORM on the
-                        back-end. I also used packages like bcrypt and json web token for registration and login
-                        authentication, as well as cloudinary react for the user's profile picture upload. This
-                        application also uses the Google Geolocation API for the "Near You" search feature.
-                    </p>
+                    <div class="project-description">
+                        <h4 class="project-title">Give Back NYC</h4>
+                        <h5 class="project-subtitle">A PostgreSQL, Express, React, Node Application</h5>
+                        <p class="project-text">
+                            Give Back NYC is an application for volunteers in NYC to find volunteering opportunities in
+                            their community and to log in their experiences and rate them. Volunteers get points for
+                            each
+                            rated experience.
+                        </p>
+                    </div>
                 </div>
             </div>
 
         </section>
         <section id="about" class="about">
-            <h3 class="about-title">about me</h3>
+            <h3 class="section-title">about me</h3>
             <div class="about-container">
-                <div class="about-image-container">
-                    <img class="about-image" src="./img/photo_2018_crop.png" alt="alice houel">
-                </div>
-                <p class="about-text">
-                    I am a French-American Web Developer with a winemaking background, who is passionate about music
-                    and social justice. From France to Australia and to the United-States, I have orchestrated wine and
-                    cider production, training and conducting a team of diverse people, who I genuinely enjoyed
-                    connecting with and learning from. Known for my tenacity and audacity, I am now devoting my past
-                    skills along with my programming skills to making a positive social impact locally - in New York
-                    City - as well as globally.</br>
-                    And when I don't save the world I sing Jazz at the New York Jazz Workshop and I love it!
-                </p>
-                <div class="about-image-container">
-                    <img class="about-image" src="./img/israel-palacio-459693-unsplash.jpg" alt="microphone">
+                <div class="about-image-text-container">
+                    <div class="about-image-container">
+                        <img class="about-image" src="./img/photo_2018_crop.png" alt="alice houel">
+                    </div>
+                    <p class="about-text">
+                        I am a French-American Web Developer with a winemaking background, who is passionate about
+                        music
+                        and social justice. From France to Australia and to the United-States, I have orchestrated wine
+                        and
+                        cider production, training and conducting a team of diverse people, who I genuinely enjoyed
+                        connecting with and learning from. Known for my tenacity and audacity, I am now devoting my
+                        past
+                        skills along with my programming skills to making a positive social impact locally - in New
+                        York
+                        City - as well as globally.</br>
+                        And when I don't save the world I sing Jazz at the New York Jazz Workshop and I love it!
+                    </p>
                 </div>
             </div>
         </section>
         <section id="contact" class="contact">
-            <h3 class="contact-title">let's connect</h2>
+            <h3 class="section-title">let's connect</h2>
                 <div class="contact-container">
-                    <div class="contact-container-1">
+                    <div class="contact-container-third">
                         <h4 class="contact-subtitle">Hire me</h4>
                         <p class="contact-text">
-                            <i class="fas fa-mobile-alt contact-icon"></i> (503) 703 6536
+                            <i class="fas fa-mobile-alt"></i> (503) 703 6536
                         </p>
                         <p class="contact-text">
-                            <i class="fas fa-at contact-icon"></i> <a class="contact-link" href="mailto:amhouel@gmail.com">amhouel@gmail.com</a>
+                            <i class="fas fa-at"></i> <a class="contact-link" href="mailto:amhouel@gmail.com">amhouel@gmail.com</a>
                         </p>
                     </div>
-                    <div class="contact-container-2">
+                    <div class="contact-container-third">
                         <h4 class="contact-subtitle">Follow me</h4>
                         <div class="contact-icon-container">
                             <a class="contact-link" target="_blank" href="https://www.github.com/amhouel"><i class="fab fa-github contact-icon"></i></a>
@@ -124,7 +131,7 @@
                                     class="fab fa-linkedin-in contact-icon"></i></a>
                         </div>
                     </div>
-                    <div class="contact-container-3">
+                    <div class="contact-container-third">
                         <h4 class="contact-subtitle">Meet me</h4>
                         <p class="contact-text">New York, NY</p>
                         <p class="contact-text">Let's go to meetups together!</p>
@@ -133,7 +140,7 @@
         </section>
     </main>
     <footer>
-        <p>Copyright 2018 | alice houel</p>
+        <p>Copyright 2018 | alice hou&euml;l</p>
     </footer>
 
 </body>
