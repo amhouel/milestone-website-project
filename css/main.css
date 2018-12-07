@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #0B132B;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header-title {
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.header-navbar {
+    padding-top: 5px;
+}
+
+.header-navbar-link {
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.header-navbar-link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #2C8C99;
+}
+
+.header-subtitle-container {
+    background-image: url("../img/rawpixel-679094-unsplash.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-subtitle {
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.highlighted {
+    color: #2C8C99;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.section-title {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #2C8C99;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-description-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: rgb(44, 140, 153);
+}
+
+.project-title {
+    text-align: center;
+    font-family: courgette, cursive;
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.project-subtitle {
+    margin: 0;
+}
+
+.project-image-container {
+    width: 45%;
+    align-self: center;
+}
+
+.project-description {
+    width: 45%;
+    align-self: center;
+}
+
+.project-image {
+    width: 100%;
+    border: 3px solid #0B132B;
+}
+
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../img/israel-palacio-459693-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.about-image-text-container {
+    width: 50%;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.about-image-container {
+    width: 100%;
+}
+
+.about-image {
+    width: 200px;
+    border: 3px solid #0B132B;;
+    border-radius: 100px;
+}
+
+.about-text {
+    width: 100%;
+    background-color: rgba(44, 140, 153, 0.7);
+    padding: 30px;
+    border-radius: 80px;
+    border: 3px solid #0B132B;
+}
+
+.contact-container {
+    background-color: rgb(44, 140, 153);
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.contact-container-third {
+    width: 30%;
+    padding: 30px;
+}
+
+.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    font-weight: 700;
+    color: #0B132B;
+    text-decoration: underline;
+}
+
+.contact-subtitle {
+    font-family: courgette, cursive;
+    font-size: 25px;
+}
+
+.contact-icon {
+    font-size: 30px;
+    padding: 0 20px;
+}
+
